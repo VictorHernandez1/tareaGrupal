@@ -10,34 +10,62 @@ package tareagrupal.helpers;
  * @author carlitosruano10
  */
 public class Farmacia extends Hospital {
+    
+    private String nombreEncargado;
+    private int horaInicio;
+    private int horaCierre;
+    
+    public String getNombreEncargado() {
+        return nombreEncargado;
+    }
+
+    public void setNombreEncargado(String nombreEncargado) {
+        this.nombreEncargado = nombreEncargado;
+    }
+    
+    public int getHoraInicio() {
+        return horaInicio;
+    }
+
+    public void setHoraInicio(int horaInicio) {
+        this.horaInicio = horaInicio;
+    }
+    
+    public int getHoraCierre() {
+        return horaCierre;
+    }
+
+    public void setHoraCierre(int horaCierre) {
+        this.horaCierre = horaCierre;
+    }
 
     @Override
-    String getDimensionesEdificio() {
+    public String getDimensionesEdificio() {
         return "50m x 50m";
     }
 
     @Override
-    String getColorEdificio() {
+    public String getColorEdificio() {
         return "azul";
     }
 
     @Override
-    String getNombreEdificio() {
+    public String getNombreEdificio() {
         return "Farmacio del hospital";
     }
 
     @Override
-    String getDireccionEdificio() {
+    public String getDireccionEdificio() {
         return "Col Suyapa";
     }
 
     @Override
-    int getNumeroDePisos() {
+    public int getNumeroDePisos() {
         return 2;
     }
 
     @Override
-    int getNumeroEdificio() {
+    public int getNumeroEdificio() {
         return 21;
     }
 
