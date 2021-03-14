@@ -40,32 +40,32 @@ public class Laboratorio extends Hospital {
     }
     
     @Override
-    String getDimensionesEdificio() {
+    public String getDimensionesEdificio() {
         return "150m x 200m";
     }
 
     @Override
-    String getColorEdificio() {
+    public String getColorEdificio() {
         return "Verde";
     }
 
     @Override
-    String getNombreEdificio() {
+    public String getNombreEdificio() {
         return "Laboratorio clinico";
     }
 
     @Override
-    String getDireccionEdificio() {
+    public String getDireccionEdificio() {
         return "Col Suyapa";
     }
 
     @Override
-    int getNumeroDePisos() {
+    public int getNumeroDePisos() {
         return 3;
     }
 
     @Override
-    int getNumeroEdificio() {
+    public int getNumeroEdificio() {
         return 10;
     }
     
